@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!-- 
+    các thẻ:
+    1. h1-h6. tiêu đề
+    2. p. đoạn văn
+    3. img. hình ảnh
+    4. a - liên kết.
+    5. ul, li - hiển thị danh sách.
+    6. table - bảng
+    7. input - chọn, nhập
+    8. button
+    9. div - tạo khối bao quanh
+ -->
+ <!-- 
+     Attribute? -  tiêu đề
+  -->
+<html>
+    <!-- Phần đầu -->
+    <head>
+        <!-- Tiêu đề web -->
+        <title>Nội thất DeLi</title>
+        <!-- cho phép gõ tiếng việt trong web -->
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="main.css">
+        <style>
+            .box {
+                width: 100%;
+                height: 200px;
+                background-color: gray;
+            }
+            .box::after {
+                content: "("xin chao cac ban")";
+            }
+        </style>
+    </head>
+    <!-- Phần thân -->
+    <body>
+        <div class="box">
+            <h1 style="color: red; font-size: 50px;" >Nội Thất DeLI</h1>
+        </div>
+        <div>
+            
+        <!-- Tên đăng nhập <input type="text"> -->
+
+        <!-- <div>
+            <input type="checkbox">
+        </div>
+
+        <div>
+            <input type="radio">
+        </div>
+
+        <div>
+            <button>Đăng ký</button>
+        </div> -->
+
+        <!-- <p>kỹ sư balabla</p>
+        <div>
+            <input name="gender" type="radio">Nam
+            <input name="gender" type="radio">Nữ
+            <input name="gender" type="radio">Khác
+        </div>
+        <div>
+            <input name="answer" type="checkbox">Đáp án 1
+            <input name="answer" type="checkbox">Đáp án 2
+            <input name="answer" type="checkbox">Đáp án 3
+            <input name="answer" type="checkbox">Đáp án 4
+            
+        </div> -->
+        <!-- <div>
+            <h1 title="HTML, CSS từ zero đến Hero">Học về attribute trong HTML</h1>
+<a href="https://fullstack.edu.vn/">Học HTML tại F8</a>
+<img width="250" title="Lập trình Javascript cơ bản" src="https://img.youtube.com/vi/0SJE9dYdpps/sddefault.jpg">
+        </div>
+        <div>
+            <input type="submit" value="Đăng ký">
+        </div>
+        <!-- src: nguồn file ảnh -->
+        
+            <ul>
+                <li id="fistblue" style="color: blue;">MENU
+                    <ul>
+                        <li class="fistblu">Trang chủ</li>
+                        <li class="fistblu">Giới thiệu</li>
+                        <li class="fistblu">Dịch vụ</li>
+                        <li class="fistblu">Tin tức</li>
+                        <li class="fistblu">Dự án</li>
+                        <li class="fistblu">Liên hệ</li>
+                   </ul>
+                </li>
+                <li><input type="text">Tìm kiếm</li>
+            </ul>
+           
+        
+        <div>
+            <img  title="đây là ảnh" src="https://scontent.fhan2-4.fna.fbcdn.net/v/t39.30808-6/239865192_107326465056094_6591170608229790412_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=PgQAW9PJ8OEAX_1WHjP&_nc_ht=scontent.fhan2-4.fna&oh=00_AT9AlAFgkcv6tjj0ORfWlTo4Us6iqodUXUpz68PEHIsK6w&oe=62112A71" name="là tập đoàn tư vấn thiết kế hàng đầu Việt Nam" alt="logo">
+            
+        </div>
+        
+        <div>
+            <ul>
+                ...Giới thiệu
+                    <li><a href="https://goo.gl/maps/HRkiqnbpLEeHEVYy7">Địa chỉ: KDT Thanh Hà, Cự Khê, Thanh oai, Hà Nội</a></li>
+                    <li><a href="https://www.facebook.com/noithat.delidesign/">Fanpage</a></li>
+                    <li>Gmail: deli.design@gmail.com</li>
+                    <li class="secon">Sdt: 0869 223 258</li>
+                </ul>
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <th class="fistbl">Tên</th>
+                    <th class="fistbl">Quê quán</th>
+                    <th class="fistbl">Số điện thoại</th>
+                    <th class="fistbl">Facebook</th>
+                    <th></th>
+                </thead>
+                <body>
+                    <tr>
+                       
+                        <td>Khánh Đỗ</td>
+                        <td>Nam Định</td>
+                        <td class="secon">0123 456 789</td>
+                        <td><a href="https://www.facebook.com/profile.php?id=100041833205915">Facebook Đỗ Khánh</a></td>
+                        <td><img width="60" src="https://scontent.fhan2-4.fna.fbcdn.net/v/t1.6435-9/87881243_204520260952413_7545406328093540352_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=174925&_nc_ohc=z-uFTlBjCEsAX8PH_tD&_nc_ht=scontent.fhan2-4.fna&oh=00_AT8eU5M19jLaF5F3P-OIQf3YXgxY609N3R3xAsgTlWBUwQ&oe=623002CD" alt="ảnh của khánh"></td>
+                        
+                    </tr>
+                    <tr>
+                        
+                        <td>Tài Đỗ</td>
+                        <td>Nam Định</td>
+                        <td class="secon">0123 456 789</td>
+                        <td><a href="https://www.facebook.com/do.tai.1317">Facebook Tai Do</a></td>
+                        <td><img width="60" src="https://scontent.fhan2-1.fna.fbcdn.net/v/t39.30808-6/270762496_1395377210879037_1809747278677752040_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=fkBTSPF-PysAX9iKn43&tn=pSDWbj5f9yc199Jv&_nc_ht=scontent.fhan2-1.fna&oh=00_AT_URr5Tq-x8vTR7GfXQUBZ6nvX2lUgsFMNuKVZhvABH5A&oe=6211B5CA" alt="ảnh của tài"></td>
+                    </tr>
+                    <tr>
+                       
+                        <td>Thắng Đỗ</td>
+                        <td>Nam Định</td>
+                        <td class="secon">0123 456 789</td>
+                        <td><a href="https://www.facebook.com/thang.dvt.1999">Facebook Đỗ Thắng</a></td>
+                        <td><img width="60" src="https://scontent.fhan2-1.fna.fbcdn.net/v/t1.6435-9/141750766_3398345520391154_4629176314871966156_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=YKRBxPfwr-kAX9lOED3&_nc_ht=scontent.fhan2-1.fna&oh=00_AT8nq4IRm261kH7BZ75JE0qLHeQ26yNvyzdQ2e4hCDhykQ&oe=62336000" alt="ảnh của thắng"></td>
+                    </tr>
+                </body>
+            </table>
+        </div>
+        
+        </div>
+    </body>
+</html>

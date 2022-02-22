@@ -1,0 +1,13 @@
+#fistnlue{
+    font-size: 100px;
+}
+.fistblu {
+    color: rgb(16, 16, 59);
+}
+.secon {
+    color: var(--text-color);
+}
+:root {
+    --text-color: #ff2600;
+
+}
